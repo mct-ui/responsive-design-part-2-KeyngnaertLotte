@@ -626,6 +626,35 @@ a:focus {
 }
 
 /*
+    Component: Title icon
+    ---
+    Special type of title with icon
+*/
+
+.c-title-icon {
+  display: flex;
+  align-items: center;
+}
+
+.c-title-icon__icon {
+  width: 15%;
+  margin: 0 24px 24px 0;
+}
+
+@media (min-width: 768px) {
+  .c-title-icon__icon {
+    width: 10%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .c-title-icon__icon {
+    width: 20%;
+  }
+}
+
+
+/*
     Component: footer
     ---
     Main footer of the website
